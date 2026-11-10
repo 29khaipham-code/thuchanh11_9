@@ -1,0 +1,8 @@
+﻿@model IEnumerable<thuchanh11_9.Models.LoaiHang>
+
+@foreach (var item in Model)
+{
+    <li>
+        <a class="nav-link loc-hang-hoa" href="#" data-maloai="@item.MaLoai">@item.TenLoai</a>
+    </li>
+}
